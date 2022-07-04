@@ -212,7 +212,7 @@ public class MayankApplicationTests {
 //        with().pollInSameThread().await().atMost(1000, MILLISECONDS).until(isEventSameAsMessage(), equalTo("MyMessage"));
 
 //        6. Using fixed poll interval
-//        with().pollDelay(100, MILLISECONDS).and().pollInterval(200, MILLISECONDS).await().until(isEventSameAsMessage(), equalTo("MyMessage"));
+        with().pollDelay(100, MILLISECONDS).and().pollInterval(200, MILLISECONDS).await().until(isEventSameAsMessage(), equalTo("MyMessage"));
 
 //        7. Fabonacci poll interval
 //        with().pollInterval(fibonacci().with().timeUnit(SECONDS)).await().until(isEventSameAsMessage(), equalTo("MyMessage"));

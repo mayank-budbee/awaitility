@@ -24,9 +24,9 @@ public class ApplicationConfiguration {
         return eventMulticaster;
     }
 
-//    @Bean
-//    CustomSpringEventListener customSpringEventListener() {
-//        return new CustomSpringEventListener();
-//    }
+    @Bean
+    CustomSpringEventListener customSpringEventListener() {
+        return new CustomSpringEventListener();
+    }
 
 }
